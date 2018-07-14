@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = "*"
+pyyaml = "*"
+"aiohttp-jinja2" = "*"
+faker = "*"
+motor = "*"
+
+[dev-packages]
+gunicorn = "*"
+
+[requires]
+python_version = "3.7"
